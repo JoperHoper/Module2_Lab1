@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      description="A website"
+      author="josephine"
+    />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      #Sunset2 {
+        width: 400px;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My HTML learning journey</h1>
+    <article>
+      <h2>Learning elements - div, span, p, pre, ul, li, ol, article</h2>
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <span>1</span> <span>2</span> <span>3</span>
+      <p>p represents paragraph without preserving spacing</p>
+      <pre>
+            Text in         a pre element
+            is displayed in a fixed-width
+            font, and it preserves
+            both      spaces and
+            line breaks
+        </pre
+      >
+      <ul>
+        <li>Orange</li>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Kiwi</li>
+      </ul>
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>
+          Water
+          <ul>
+            <li>Carbonated</li>
+            <li>Still</li>
+          </ul>
+        </li>
+      </ol>
+    </article>
+    <article>
+      <h2>Learning About Table</h2>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">First header</th>
+            <th>Second header</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>First cell - first row</td>
+            <td>Second cell - first row</td>
+            <td>Third cell - first row</td>
+          </tr>
+          <tr>
+            <td>First cell - second row</td>
+            <td rowspan="2">Second cell - second row</td>
+            <td>Third cell - second row</td>
+          </tr>
+          <tr>
+            <td>First cell - third row</td>
+            <td>Second cell - third row</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    <article>
+      <h2>Image</h2>
+      <img src="https://picsum.photos/400/400" alt="Sunset" />
+      <img id="Sunset2" src="/assets/html_lab_image.jpg" alt="Sunset2" />
+      <h2>Video</h2>
+      <video controls width="250">
+        <source src="/assets/flower.webm" type="video/webm" />
+      </video>
+      <h2>Audio</h2>
+      <audio controls src="/assets/t-rex-roar.mp3">
+      </audio>
+    </article>
+    <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="/form.html">Form</a>
+      </nav>
+    </header>
+    <main></main>
+    <footer>Copyright &copy; 2024</footer>
+  </body>
+</html>
